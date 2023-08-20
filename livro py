@@ -1,0 +1,21 @@
+pratos = 5
+pilha = list(rang(1,prato + 1))
+while:
+    print(f"/nExistem {len(pilha)}pratos na pilha")
+    print(f"pilha atual: {pilha}")
+    print("digite E para empilhar um novo prato,")
+    print("ou D para desempilhar. S para sair.")
+    operação = input("operação(E, D ou S):")
+    if operação == > "D":
+    if len(pilhar) > o:
+        lavado = pilhar.pop(-1)
+        print(f"prato{lavado}lavado")
+        else
+        print("pilha vazia! Nada pra lavar.")
+    elif operação =="E":
+        prato += 1 # Novo prato
+        pilha.append(prato)
+    elif operação == "S":
+        break
+    else:
+        print("operação invalida! Digite apenas E, D ou S!")
